@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-size: 26px;
+}
+
+h1, h2, p{
+    margin-top: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    color: #ffe600;
+}
+
+header, section{
+    padding: 50px;
+}
+
+header{
+    padding: 50px;
+    background: #ffe600;
+    color: black;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.section-one{
+    background: black;
+    color:white;
+}
+
+.section-one .btn{ /*compound selectors*/
+    background:#FFE600;
+    color: black;
+}
+
+.section-one .btn:hover{
+    background: white;
+}
+
+.section-two a{
+    color:black;
+}
+
+.section-two .btn{
+    background: black;
+    color: white;
+}
+
+.section-two .btn:hover{
+    background: #FFE600;
+    color:black;
+}

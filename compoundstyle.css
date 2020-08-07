@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h1, h2, p{
+    margin-top: 0;
+} 
+
+header, section{
+    padding: 50px;
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.btn-light{
+    display: inline-block;
+    text-decoration: none;
+    background: #ffe600;
+    padding: 20px;
+    color: red;
+}
+
+.btn-accented{
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    padding: 20px;
+    color: #ffe600;
+}
+
+.btn-light:hover{/*we use the same styling for each btn.*/
+    background: red;
+    color: #ffe600;
+}
+
+.btn-accented:hover{/*we use the same styling for each btn.*/
+    background: #ffe600;
+    color: red;
+}
+
+#section-1 .link{
+    color:yellow;
+}
+
+#section-1{
+    background-color: blue;
+    color:white;
+}
+
+#section-2 .link{
+    color:red;
+}
+
+#section-2{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+

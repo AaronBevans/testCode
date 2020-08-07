@@ -1,0 +1,87 @@
+body{
+    font-size: 18px;
+}
+#card{
+    background: #000;
+    color: white;
+    width: 560px;
+
+    margin:0 auto;/*gives each side an equal amount of margin/space.*/
+    /*margin-left: auto;
+    margin-right: auto;
+    gives each side an equal amount of margin/space.
+    */
+    padding: 45px;
+}
+
+h1, p{/*selecting multiple elements for consistency.
+    before getting to detailed versions.*/
+    margin-top: 0;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.links{
+    margin-top: 5px;
+    margin-bottom: 0.5px;
+}
+
+
+/*******************/
+#main-div, #counter-button{
+    margin: 20px;
+}
+
+.a-button{
+    background: yellow;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 0.5px;
+    text-decoration: none;
+}
+
+.a-button:hover{
+    background: white;
+}
+
+#new-card{
+    background:silver;
+    margin: 40px;
+    padding:20px;
+    width: 350px;
+}
+
+.new-links{
+    margin: 10px;
+}
+
+.msg-p{
+    color:red;
+    padding-left: 7px;
+    margin: 12px 5px;
+}
+
+.msg-p:hover{
+    color:white;
+}
+
+.b-button{
+    color:white;
+    display: inline-block;
+    background: red;
+    padding: 20px;
+    margin:0 auto;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.b-button:hover, .b-button:active{
+    background-color: bisque;
+    color:red;
+    font-size: 40px;
+    font-style: oblique;
+}
+
